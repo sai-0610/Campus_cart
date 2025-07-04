@@ -47,3 +47,18 @@ cd frontend
 npm install
 
 ```
+
+### 3. Env Variables
+
+Create a `.env` in your root directory and add the following:
+NODE_ENV=development
+PORT=5000
+MONGO_URI=your_mongodb_connection_uri
+JWT_SECRET=your_jwt_secret
+PAYPAL_CLIENT_ID=your_paypal_client_id
+PAGINATION_LIMIT=8
+
+- Replace `your_mongodb_connection_uri` with your actual MongoDB URI.
+- Replace `your_jwt_secret` with a strong secret key for JWT signing.
+- Replace `your_paypal_client_id` with your PayPal REST API client ID.
+- Adjust `PAGINATION_LIMIT` as needed.
