@@ -65,3 +65,26 @@ PAGINATION_LIMIT=8
 - Replace `your_jwt_secret` with a strong secret key for JWT signing.
 - Replace `your_paypal_client_id` with your PayPal REST API client ID.
 - Adjust `PAGINATION_LIMIT` as needed.
+
+### 4. Seed the Database (Optional)
+
+You can add sample products and users with:
+
+```bash
+npm run data:import
+npm run data:destroy
+
+```
+
+### 5. Run the App
+
+From the root directory, run:
+
+```bash
+npm run dev
+
+```
+
+Backend: http://localhost:5000
+
+Frontend: http://localhost:3000
