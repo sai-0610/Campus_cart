@@ -36,3 +36,14 @@ A full-featured eCommerce platform built with the **MERN stack** and **Redux Too
 git clone https://github.com/yourusername/Campus_cart.git
 cd Campus_cart
 ```
+
+### 2. Install Dependencies
+
+For root & frontend:
+
+```bash
+npm install
+cd frontend
+npm install
+
+```
