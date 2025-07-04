@@ -88,3 +88,54 @@ npm run dev
 Backend: http://localhost:5000
 
 Frontend: http://localhost:3000
+
+## 6. Technology
+
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- Redux Toolkit & RTK Query
+- Bootstrap
+- PayPal REST SDK
+- Multer
+- JWT Authentication
+
+## 7.Sample User Logins
+
+You can use these test users once you seed the database:
+
+```
+Admin
+Email: admin@email.com
+Password: 123456
+
+Customer 1
+Email: john@email.com
+Password: 123456
+
+Customer 2
+Email: jane@email.com
+Password: 123456
+```
+
+## 8.License
+
+The MIT License
+
+```
+MIT License
+
+Copyright (c) 2025 [Sailesh]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+
+
+
+```
